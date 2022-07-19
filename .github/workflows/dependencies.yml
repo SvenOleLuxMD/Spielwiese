@@ -1,3 +1,4 @@
+name: dependencyCheck
 on: [push]
 
 jobs:
