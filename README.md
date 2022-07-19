@@ -1,7 +1,7 @@
 # Spielwiese
 
 
-![example workflow](https://github.com/SvenOleLuxMD/Spielwiese/actions/workflows/CI/badge.svg)
+![example workflow](https://github.com/SvenOleLuxMD/Spielwiese/actions/workflows/dependencies.yml/badge.svg)
 
 
 
