@@ -37,3 +37,6 @@ jobs:
       with:
          name: Depcheck report
          path: ${{github.workspace}}/reports
+    - name: Aqua Security Trivy
+      uses: aquasecurity/trivy-action@0.7.1
+
