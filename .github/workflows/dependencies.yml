@@ -37,6 +37,10 @@ jobs:
       with:
          name: Depcheck report
          path: ${{github.workspace}}/reports
-    - name: Aqua Security Trivy
-      uses: aquasecurity/trivy-action@0.7.1
+    - name: Run Trivy vulnerability scanner in fs mode
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        trivy-config: trivy.yaml
 
