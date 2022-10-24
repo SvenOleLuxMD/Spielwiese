@@ -21,7 +21,7 @@ Alice -> Bob : hi
 ```mermaid
 journey
 	title Me studying for exams
-	section Exam is announced
+	section Exam is announced!!!
 		I start studying: 1: Me
 		Make notes: 2: Me
 		Ask friend for help: 3: Me, Friend
