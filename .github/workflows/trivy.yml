@@ -8,6 +8,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
+      - name: give gradlew more rights
+        run: chmod +x ./gradlew
+        
+        
       - name: Build with Gradle
         run: ./gradlew build -x check -x test
 
