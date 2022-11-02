@@ -3,7 +3,7 @@
 
 ![example workflow](https://github.com/SvenOleLuxMD/Spielwiese/actions/workflows/dependencies.yml/badge.svg)
 
-+ ***Security*** - [![Known Vulnerabilities](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json) -
++ ***Security*** - [![Known Vulnerabilities](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/dSvenOleLuxMD/Spielwiese?targetFile=build.gradle) -
 
 + **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta)
 
