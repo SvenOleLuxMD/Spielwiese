@@ -5,9 +5,7 @@
 
 + ***Security*** - [![Known Vulnerabilities](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/dSvenOleLuxMD/Spielwiese?targetFile=build.gradle) -
 
-+ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta)
-
-+ **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master)
++ **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/SvenOleLuxMD/Spielwiese?maxAge=2592000)](https://codecov.io/github/SvenOleLuxMD/Spielwiese?branch=master)
 
 
 
