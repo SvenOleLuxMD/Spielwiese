@@ -3,9 +3,9 @@
 
 ![example workflow](https://github.com/SvenOleLuxMD/Spielwiese/actions/workflows/dependencies.yml/badge.svg)
 
-+ ***Security*** - [![Known Vulnerabilities](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/dSvenOleLuxMD/Spielwiese?targetFile=build.gradle) -
+ [![Known Vulnerabilities](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/dSvenOleLuxMD/Spielwiese?targetFile=build.gradle) 
 
-+ **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/SvenOleLuxMD/Spielwiese?maxAge=2592000)](https://codecov.io/github/SvenOleLuxMD/Spielwiese?branch=master)
+ [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/SvenOleLuxMD/Spielwiese?maxAge=2592000)](https://codecov.io/github/SvenOleLuxMD/Spielwiese?branch=master)
 
 
 
