@@ -6,6 +6,8 @@
  [![Known Vulnerabilities](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/SvenOleLuxMD/Spielwiese?targetFile=build.gradle) 
 
  [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/SvenOleLuxMD/Spielwiese?maxAge=2592000)](https://codecov.io/github/SvenOleLuxMD/Spielwiese?branch=master)
+ 
+ [![Renovate][renovate-badge]][renovate-link]
 
 
 
