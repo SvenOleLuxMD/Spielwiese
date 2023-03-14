@@ -8,7 +8,11 @@ import http from "k6/http";
          { duration: "10s", target: 10 },
          { duration: "10s", target: 50 },
          { duration: "10s", target: 0 },
-     ]
+     ],
+    thresholds: {
+      // the rate of successful checks should be higher than 90%
+      checks: ['rate>0.99']  
+    },
  };
 
 export default function() {
