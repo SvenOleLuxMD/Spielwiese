@@ -11,4 +11,3 @@ jobs:
         uses: grafana/k6-action@v0.2.0
         with:
           filename: mandel.js
-          flags: --vus 50 --duration 10s
