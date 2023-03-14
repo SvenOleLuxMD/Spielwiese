@@ -10,4 +10,4 @@ jobs:
       - name: Run k6 local test
         uses: grafana/k6-action@v0.2.0
         with:
-          filename: lasttest/main.js
+          filename: lasttest/mandel.js
