@@ -1,5 +1,10 @@
 name: k6
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+    inputs:
+      pathToFile:
+          description: 'Pfad zum auszuführenden k6-Skript innerhalb dieses Repos'
+          required: true
 jobs:
   build:
     name: Run k6 test
@@ -10,4 +15,4 @@ jobs:
       - name: Run k6 local test
         uses: grafana/k6-action@v0.2.0
         with:
-          filename: lasttest/mandel.js
+          filename: ${{ github.event.inputs.pathToFile }}#lasttest/mandel.js
