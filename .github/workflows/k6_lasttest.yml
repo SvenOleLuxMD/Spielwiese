@@ -1,4 +1,5 @@
 name: k6
+run-name: K6 lasttest - ${{ github.event.inputs.pathToFile }}
 on: 
   workflow_dispatch:
     inputs:
