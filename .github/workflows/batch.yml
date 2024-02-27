@@ -16,9 +16,9 @@ jobs:
     steps:
       - name: run build script
         run: |
-          branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
+          branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}/}
           echo $branch
-          branchRemove=${branch//a/_}
+          branchRemove=${branch////_}
           echo $branchRemove
           echo $branchRemove >> $GITHUB_OUTPUT
         id: extract_branch
