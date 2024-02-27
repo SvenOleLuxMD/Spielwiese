@@ -17,3 +17,5 @@ jobs:
       - name: run build script
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}///}" >> $GITHUB_OUTPUT
         id: extract_branch
+      - name: print
+        run: echo ${{steps.extract_branch.outputs.branch}}
