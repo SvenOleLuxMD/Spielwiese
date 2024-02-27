@@ -18,7 +18,7 @@ jobs:
         run: |
           branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}/}
           echo $branch
-          branchRemove=${branch////_}
+          branchRemove=${branch////}
           echo $branchRemove
           echo $branchRemove >> $GITHUB_OUTPUT
         id: extract_branch
