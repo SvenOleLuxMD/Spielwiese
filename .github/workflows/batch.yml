@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: run build script
-        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}//a}" >> $GITHUB_OUTPUT
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}//a/_}" >> $GITHUB_OUTPUT
         id: extract_branch
       - name: print
         run: echo ${{steps.extract_branch.outputs.branch}}
