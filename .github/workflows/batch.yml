@@ -1,0 +1,19 @@
+name: deploy to AWS Ci/CD Environment
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+concurrency: conc-pr-${{ github.repository }}
+
+jobs:
+  testOnAWSCiCdEnvironment:
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}///}" >> $GITHUB_OUTPUT
+        id: extract_branch
