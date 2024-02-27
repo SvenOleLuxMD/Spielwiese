@@ -20,7 +20,7 @@ jobs:
           echo $branch
           branchRemove=${branch////}
           echo $branchRemove
-          echo "$branchRemove" >> $GITHUB_OUTPUT
+          echo "branch=$branchRemove" >> $GITHUB_OUTPUT
         id: extract_branch
       - name: print
         run: echo ${{steps.extract_branch.outputs.branch}}
